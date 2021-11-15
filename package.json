@@ -2,6 +2,8 @@
   "name": "next-app-typescript-docker",
   "private": true,
   "scripts": {
+    "docker-run": "docker run -p 3000:3000 next-app-typescript-docker",
+    "docker-build": "docker build . -t next-app-typescript-docker",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
